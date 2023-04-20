@@ -9,12 +9,14 @@
 // [70, 42, 55, 81, 21, 91, 34]	     [55, 81, 21, 91]
 // [2, 4, 6, 8, 10, 11, 12] 	     [11]
 
+//Declaring values in array. 
 let inputArray = [2,4,6,8,11,20,15,22]
  
 console.log("New Array")
 for (let i = 0; i < inputArray.length; i++) {
-    
+   //Loops each value in the array to find the remainder, if equal to 1. The value is odd.  
   if (inputArray[i] % 2 === 1){
+    //Prints odd values on the console.
     console.log('[',inputArray[i],']')
    } 
 } 
